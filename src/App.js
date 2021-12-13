@@ -15,10 +15,10 @@ function App() {
         <Route path="/welcome">
           <Welcome />
         </Route>
-        <Route path="/products">
+        <Route path="/products" exact>
           <Products />
         </Route>
-        <Route path="/product-detail/:productId">
+        <Route path="/products/:productId">
           <ProductDetail />
         </Route>
       </main>
